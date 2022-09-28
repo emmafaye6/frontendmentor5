@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles.css" rel="stylesheet" />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
     <link
       rel="icon"
       type="image/png"
@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap"
       rel="stylesheet"
     />
     <title>Frontend Mentor | Single Price Grid Component</title>
@@ -29,8 +29,10 @@
       </section>
       <section class="darkersection">
         <h2>Monthly Subscription</h2>
-        &dollar;29
-        <p class="expositiontext">per month</p>
+        <div class="pricecontainer">
+          <div class="price">&dollar;29</div>
+          <div class="expositiontext">per month</div>
+        </div>
         Full access for less than &dollar;1 a day
         <button class="signupbutton">Sign Up</button>
       </section>
