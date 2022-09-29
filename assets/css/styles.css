@@ -3,6 +3,7 @@
 
   --color-cyan: hsl(179, 62%, 43%);
   --color-lighter-cyan: hsl(178.8, 69.5%, 43.7%);
+  --color-even-lighter-cyan: rgb(17, 206, 202);
   --color-light-gray: hsl(204, 43%, 93%);
   --color-grayish-blue: hsl(218, 22%, 67%);
   --color-bright-yellow: hsl(71, 73%, 54%);
@@ -91,20 +92,41 @@ h2 {
   box-shadow: 2px 5px 5px #196b6a;
 }
 
+.signupbutton:hover {
+  cursor: pointer;
+}
+
 .lightersection {
   background-color: var(--color-lighter-cyan);
   color: white;
-  padding: 1.1rem 1.3rem 1.8rem 1.3rem;
-  border-radius: 0 0 6px 6px;
+  padding: 1.1rem 1.3rem 1.4rem 1.3rem;
 }
 
 .whyuslist {
-  text-decoration: ;
+  list-style: none;
+  margin-left: -2.3rem;
 }
 
 .attribution {
+  font-family: var(--font-karla);
+  font-size: var(--font-size-mobile);
+  font-weight: var(--font-regular);
+  color: white;
 }
 
+a {
+  color: white;
+  margin-left: 5rem;
+  width: 15rem;
+}
+
+footer {
+  background-color: var(--color-even-lighter-cyan);
+  color: white;
+  padding: 0.6rem 1.3rem 0.6rem 1.3rem;
+  border-radius: 0 0 6px 6px;
+  line-height: 0.7rem;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
