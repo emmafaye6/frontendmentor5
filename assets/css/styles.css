@@ -192,7 +192,7 @@ footer {
 
   body {
     overflow: hidden;
-    line-height: 1.1rem;
+    line-height: 1rem;
   }
 
   .container {
@@ -214,24 +214,25 @@ footer {
   .darkersection {
     padding: 1rem 2rem;
     grid-column: 1/11;
-    grid-row: 6/12;
+    grid-row: 6/11;
   }
 
   .signupbutton {
-    width: 15rem;
+    width: 16rem;
     margin-left: -0.45rem;
+    height: 2.7rem;
   }
 
   .lightersection {
     padding: 1rem 2rem;
     grid-column: 11/21;
-    grid-row: 6/12;
-    line-height: 1.5rem;
+    grid-row: 6/11;
+    line-height: 1.3rem;
   }
 
   footer {
     grid-column: 1/21;
-    grid-row: 12/13;
+    grid-row: 11/12;
   }
 }
 
