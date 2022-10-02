@@ -15,7 +15,7 @@
   --font-bold: 700;
   --font-size-mobile: 0.6rem;
   --font-size-tablet: 0.5rem;
-  --font-size-desktop: 0.9rem;
+  --font-size-desktop: 0.85rem;
   --font-karla: "Karla", sans-serif;
 }
 
@@ -183,7 +183,7 @@ footer {
 
   h2 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .greentitle {
@@ -192,36 +192,46 @@ footer {
 
   body {
     overflow: hidden;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
   }
 
   .container {
     display: grid;
     width: 35rem;
     font-size: var(--font-size-desktop);
-    grid-template-columns: repeat(16, 2rem);
+    grid-template-columns: repeat(20, 2rem);
     grid-template-rows: repeat(14, 3rem);
+    margin-left: 25rem;
   }
 
   .topsection {
-    padding-top: 1.5rem;
-    grid-column: 1/17;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    grid-column: 1/21;
     grid-row: 1/6;
   }
 
   .darkersection {
-    grid-column: 1/9;
-    grid-row: 6/10;
+    padding: 1rem 2rem;
+    grid-column: 1/11;
+    grid-row: 6/12;
+  }
+
+  .signupbutton {
+    width: 15rem;
+    margin-left: -0.45rem;
   }
 
   .lightersection {
-    grid-column: 9/17;
-    grid-row: 6/10;
+    padding: 1rem 2rem;
+    grid-column: 11/21;
+    grid-row: 6/12;
+    line-height: 1.5rem;
   }
 
   footer {
-    grid-column: 1/17;
-    grid-row: 10/11;
+    grid-column: 1/21;
+    grid-row: 12/13;
   }
 }
 
